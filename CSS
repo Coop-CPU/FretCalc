@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2; /* Light grey background */
+}
+
+/* Container Styling */
+.container {
+    width: 400px; /* Make the container wider */
+    padding: 30px; /* Add more padding */
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border: 3px solid #a83226; /* Darker Galloup red */
+}
+
+/* Headings Styling */
+h1, h2 {
+    color: #a83226; /* Darker Galloup red for headings */
+}
+
+/* Label and Input Styling */
+label {
+    color: #333;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+input, button {
+    width: 90%; /* Ensure they align properly within the container */
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Button Styling */
+button {
+    background-color: #a83226; /* Darker Galloup red button */
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #872822; /* Even darker red on hover */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+#fret-positions {
+    max-height: 300px; /* Limits the height of the table */
+    overflow-y: auto;  /* Adds a vertical scroll if table exceeds the height */
+    margin-top: 15px;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px; /* Larger padding for table cells */
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f7f7f7; /* Light grey header background */
+    color: #333;
+}
